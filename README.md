@@ -41,27 +41,49 @@ DATA="test data"
 /* -------------------AVANCER------------------- */
 
 CREATE KEYS{
+
 SOCIETY{
+
 NAME="MySociety",
+
 DOMAINNAME="www.mysociety.com",	
+
 KEYS=TRUE						/* True Or False (By default is False) */
+
 }
+
 VERIFY{
+
 ACTION=TRUE,						/* True Or False (By default is False) */
+
 URLCONFIRM="https://www.yoursite.cd/getconfirm.php",
+
 DESTINATION="yourmail@yoursite.com",			/* E-mail Or Phone Number */
+
 CONFIRM=AUTO						/* Auto, Manuel or user */
+
 }
+
 SECURITY{
+
 LEVEL=1							/* From 2GB RAM, PROCESOR 1 (1 To 4) */
+
 }
+
 FIND{
+
 DATA="test data"					/* Text data Or FILE("./myfile") */
+
 }
+
 RUN{
+
 SOCKET=TRUE						/* True Or False (By default is False) */
+
 }
+
 };
+
 /* Fin création de la clé */
 
 
@@ -71,18 +93,30 @@ SOCKET=TRUE						/* True Or False (By default is False) */
 
 
 /* Début génération de la clé de licénce */
+
 CREATE LICENCEKEYS{
+
 SOCIETY{
+
 NAME="KeysOS",
-DOMAINNAME="www.keysos.cd"
+
+DOMAINNAME="www.keysos.org"
+
 }
+
 SECURITY{
+
 LEVEL=1
+
 }
+
 RECEIVE{
-FROM="https://www.keysos.cd/getLicenceKeys.php"
+
+FROM="https://www.keysos.org/getLicenceKeys.php"
 }
+
 };
+
 /* Fin génération de la clé de licénce */
 
 
@@ -92,9 +126,13 @@ FROM="https://www.keysos.cd/getLicenceKeys.php"
 
 
 /* Début verification de la clé */
+
 SELECT KEYS{
+
 CRYPTO="Your generated keys here.",
+
 GET=FREE
+
 };
 
 
@@ -102,6 +140,7 @@ GET=FREE
 
 
 SELECT KEYS{CRYPTO='Your generated keys here.', GET=LICENCEKEYS('/usr/bin/mylicencekeys.ls')};
+
 /* Fin verification de la clé */
 
 
@@ -110,5 +149,7 @@ SELECT KEYS{CRYPTO='Your generated keys here.', GET=LICENCEKEYS('/usr/bin/mylice
 
 
 /* Début lancer socket pour confirmer le code */
+
 sudo keysos port code "GET=LICENCEKEYS('/usr/bin/mylicencekeys.ls')" "votre clé ici"
+
 /* Début lancer socket pour confirmer le code */
