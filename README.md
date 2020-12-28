@@ -2,10 +2,15 @@
 Un systeme de traitement des clés chiffré utilisable avec ou sans connexion internet.
 
 /* -------------------SIMPLE------------------- */
+
 CREATE KEYS{
+
 SOCIETY{
+
 NAME="MySociety",
+
 DOMAINNAME="www.mysociety.com"
+
 }
 SECURITY{
 LEVEL=1				/* From 1 To 4 */
