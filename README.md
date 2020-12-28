@@ -1,6 +1,8 @@
 # KeysOS
 Un systeme de traitement des clés chiffré utilisable avec ou sans connexion internet.
 
+Liste des commandes et exemples :
+
 /* -------------------SIMPLE------------------- */
 
 CREATE KEYS{
@@ -12,15 +14,24 @@ NAME="MySociety",
 DOMAINNAME="www.mysociety.com"
 
 }
+
 SECURITY{
+
 LEVEL=1				/* From 1 To 4 */
+
 }
 EXPIRATION{
+
 DATE=CURRENT_DATE,			/* CURRENT_DATE Or text date format */
+
 TIME="07:50"				/* CURRENT_TIME Or text date format (A bien specifié l'heure de la region du destinateur et non seule de votre systeme.) */
+
 }
+
 FIND{
+
 DATA="test data"
+
 }
 };
 
@@ -28,6 +39,7 @@ DATA="test data"
 
 
 /* -------------------AVANCER------------------- */
+
 CREATE KEYS{
 SOCIETY{
 NAME="MySociety",
