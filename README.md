@@ -1,7 +1,7 @@
 # KeysOS
 Un systeme de traitement des clés chiffré utilisable avec ou sans connexion internet.
 
-# Manuel d'utilisation et de l’utilisation
+# Manuel d'installation et d’utilisation
 
 Ce manuel d’utilisation et de l’installation est spécifiquement pour les amoureux de la commande. Nous allons voir comment installer KeysOS sous Windows 8.1 et Ubuntu 18.4. Pour d’autres versions les méthodes d’installation sont similaires.
 
