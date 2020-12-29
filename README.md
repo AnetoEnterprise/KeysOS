@@ -1,7 +1,30 @@
 # KeysOS
 Un systeme de traitement des clés chiffré utilisable avec ou sans connexion internet.
 
-Liste des commandes et exemples :
+# Manuel d'utilisation et de l’utilisation
+
+# Ce manuel d’utilisation et de l’installation est spécifiquement pour les amoureux de la commande. Nous allons voir comment installer KeysOS sous Windows 8.1 et Ubuntu 18.4. Pour d’autres versions les méthodes d’installation sont similaires.
+
+# Windows 8.1 :
+Premièrement vous devez lancer la console en tant qu’un administrateur. Pour procéder, allez sur la barre de recherche de Windows et tapez la commande CMD. Une liste des applications apparaissent et faites un clic droit sur l’application de la console et sélectionner : Exécuter comme administrateur. La console va s’exécuter en tant qu’administrateur comme l’image ci-après :
+
+# IMAGE ICI
+
+# Une fois que vous avez l’invité de commande (Console) a votre portée, dezipper le fichier téléchargé depuis : https://github.com/AnetoEnterprise/KeysOS/archive/main.zip/
+# Et tapez la commande :
+# cd D:/votredossierzip/Windows
+# cp ./keysos.exe C:/Windows/System32/keysos.exe
+# clear
+
+
+# Ubuntu 18.4 :
+# Même procédure d’installation depuis la plate-forme linux, tapez les commandes suivante :
+# tar xpf main.zip
+# cd /main/Linux
+# cp ./keysos /usr/bin/
+# reset
+
+# Liste des commandes et exemples :
 
 /* -------------------SIMPLE------------------- */
 
