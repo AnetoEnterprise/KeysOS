@@ -8,7 +8,7 @@ Ce manuel d’utilisation et de l’installation est spécifiquement pour les am
 # Windows 8.1 :
 Premièrement vous devez lancer la console en tant qu’un administrateur. Pour procéder, allez sur la barre de recherche de Windows et tapez la commande CMD. Une liste des applications apparaissent et faites un clic droit sur l’application de la console et sélectionner : Exécuter comme administrateur. La console va s’exécuter en tant qu’administrateur comme l’image ci-après :
 
-IMAGE ICI
+![Alt text](cmd1.png?raw=true "CMD")
 
 Une fois que vous avez l’invité de commande (Console) a votre portée, dezipper le fichier téléchargé depuis : https://github.com/AnetoEnterprise/KeysOS/archive/main.zip/
 Et tapez la commande :
